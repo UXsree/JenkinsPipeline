@@ -8,11 +8,4 @@ pipeline {
             }
         }
     }
-    stages {
-        stage('from git') {
-            steps {
-                echo 'this pipeline is coming from github'
-            }
-        }
-    }
 }
